@@ -7,5 +7,9 @@ namespace WebAppCoreDb.Models.Identity
 
         public int Id { get; set; }
 
+        public string Name { get; set; }
+
+        public AppUser Leader { get; set; }   
+
     }
 }

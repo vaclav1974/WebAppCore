@@ -19,9 +19,9 @@ namespace WebAppCoreDb.Models.Identity
 
         public override string ConcurrencyStamp { get; set; }
 
-        public ICollection<Role> roles;
+        public ICollection<Role> Roles;
 
-        public Department department;
+        public Department Department;
 
         protected bool IsAdmin { get; set; } = false;
 
